@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Size Units</title>
+    <style>
+        /* Comprehensive Guide: When to Use Em vs. Rem */
+        html{
+            font-size: 25px;
+        }
+        .container{
+            width: 400px;
+            height: 500px;
+            /* width: 100vw; */
+            /* height: 100vh; */
+            font-size: 10px;
+            text-align: center;
+            border: 2px solid black;
+        }
+        h1{
+            text-align: center ;
+           /*font-size:10em ka matlab it contain  parent ka 10 guna font size  */
+           /* font-size: 10em;  */
+
+        }
+        #headding1{
+            font-size: 3em;
+            /* padding: 3em; ka matlab it contain font-size jitna v h utna guna here 3 guna of font-size i.e; 3*3=9//90 guna  */
+            /* padding: 3em;  */
+
+        }
+        #headding2{
+              /*font-size:3rem ka matlab it contain  html ka (font-size*set fontsize)/here(25*3) guna font size 
+              it is similar to padding also */
+            font-size: 3rem;
+            padding: 3rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">This is container!..
+        <h1 id="headding1">This is headding first
+        </h1>
+        <h1 id="headding2">This is headding second
+        </h1>
+        <h1 id="headding3">This is headding third
+        </h1>
+    </div>
+</body>
+</html>

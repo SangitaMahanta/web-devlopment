@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Tutorials</title>
+</head>
+
+<body>
+    <h2>HTML form tags</h2>
+    <!-- action attribute specifise backend works -->
+    <form action="backend.php">
+        <!-- NAme : <input type="text">
+        <br>
+        Role : <input type="text"> -->
+
+        <!-- or using div tag -->
+        <label for="name">Name</label>
+        <div>
+            <input type="text" name="myName" id="name">
+        </div>
+        <br>
+        <div>
+            Role : <input type="text" name="myRole">
+        </div>
+        <br>
+        <div>
+            <!-- here name attribute describe the which type of data store -->
+
+            Email : <input type="email" name="myEmail">
+        </div>
+        <br>
+        <div>
+            <input type="date" value="date">
+        </div>
+        <label for="myElegibility">myElegibility</label>
+        <br>
+        <div>
+            Are you elegible : <input type="checkbox" value="myElegibility" id="myElegibility">
+        </div>
+        <br>
+        <div>
+            Bonus : <input type="number" value="myBonus">
+        </div>
+        <br>
+        <div>
+            write about yourself : <br> <textarea name="myText" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="car">Car</label>
+            <select name="mycar" id="car">
+                <option value="indica">Indica</option>
+                <option value="mahidra">mahindra</option>
+                <option value="swift" selected>swift</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            Gender : Male <input type="radio" name="myGender"> Female <input type="radio" name="myGender"> Other <input
+                type="radio" name="myGender">
+        </div>
+        <br>
+
+        <input type="submit" value="Submit Now">
+
+
+        <input type="reset" value="reset Now">
+
+    </form>
+</body>
+
+</html>

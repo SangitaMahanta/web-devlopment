@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML selector</title>
+    <style>
+        /* id selector */
+      #redBg{
+          color: lightseagreen;
+          background-color: gold;
+      }
+      /* class selector */
+      .bgBlue{
+          color: black;
+background-color: rgb(179, 255, 0);
+      }
+      /* element selector */
+        p{
+            color: deeppink;
+            border : 2px solid red;
+        }
+        /* group selector */
+        footer,span{
+            background-color: chocolate;
+        }
+
+    </style>
+</head>
+<body>
+    <p id="redBg" >This is the demonstrated para</p>
+    <p id="secondPara" class="mainBox bgBlue">This is the demonstrated paragraph</p>
+    <div>
+    <p>This is the demonstrated para within &lt;div&gt;tag</p>
+    <span>this is a span.</span>
+</div>
+<footer>This is footer.</footer>
+</body>
+</html>

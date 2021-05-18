@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border and Backgrounds</title>
+    <style>
+        #firstPara{
+            background-color: red;
+            height: 100px;
+            width: 455px;
+            border: 4px solid green;
+           /* border-width: 4px;
+            border-color:green;
+            border-style: solid;*/
+            border-radius: 11px;
+        }
+        #secondPara{
+            background-color: aquamarine;
+            height: 130px;
+            width: 400px;
+            border-top:4px solid brown;
+            border-right:4px solid blue;
+            border-bottom:4px solid green;
+            border-left:4px solid yellowgreen;
+            border-top-left-radius:50px;
+            border-top-right-radius:10px;
+            border-bottom-left-radius:10px;
+            border-bottom-right-radius:10px;
+            background-image: url(https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg);
+        }
+        #thirdPara{
+            height: 500px;
+            width: 400px;
+            background-image:url(https://codewithharry.com/static/home/img/photo.png) ; 
+            border: 3px solid black;
+            background-repeat: no-repeat; /* repeat-x and repeat-y will make it repeat on x and y axis */
+            /* background-position: 198px 87px; */
+            background-position: center center;
+            /* background-position: bottom right; */
+            /* background-position: top center; */ 
+            background-color: gray;
+        }
+    </style>
+</head>
+<body>
+    <h3>This is the Border and Backgrounds</h3>
+    <p id="firstPara">This is a paragraph from first box</p>
+
+    <h2>This is my second para</h2>
+    <p id="secondPara">This is a paragraph from second box</p>
+
+    <h2>This is my third para</h2>
+    <p id="thirdPara">This is a paragraph from third box</p>
+</body>
+</html>
