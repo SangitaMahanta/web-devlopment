@@ -26,10 +26,17 @@
       console.log(i.toString())// convert a number by using toString()
 
       let stri = Number("3434");
-      stri = Number("343d4");
+      console.log(stri, (typeof stri));
+
+      stri = Number("343d4");//can't convert string to number it display NaN in console
+      console.log(stri, (typeof stri));
+
       stri = Number(false);
-      stri = Number([1, 2, 3, 4, 5, 6, 7, 8, 9]);
-      // console.log(stri, (typeof stri));
+      console.log(stri, (typeof stri));
+
+      stri = Number([1, 2, 3, 4, 5, 6, 7, 8, 9]);//can't convert array to number it display NaN in console
+      console.log(stri, (typeof stri));
+      
 
       let number = parseFloat("34.098");
 
