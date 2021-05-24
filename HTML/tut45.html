@@ -28,6 +28,7 @@
       let stri = Number("3434");
       console.log(stri, (typeof stri));
 
+     
       stri = Number("343d4");//can't convert string to number it display NaN in console
       console.log(stri, (typeof stri));
 
@@ -37,17 +38,24 @@
       stri = Number([1, 2, 3, 4, 5, 6, 7, 8, 9]);//can't convert array to number it display NaN in console
       console.log(stri, (typeof stri));
       
+//parse method
+      let number = parseInt("34.098");
+      console.log(number, (typeof number));
+         number = parseFloat("34.098");
+    //    number = number("34.098");
 
-      let number = parseFloat("34.098");
+      console.log(number.toFixed(2), typeof number);//toFixed(4)-it gives 4 decimal number
 
-      console.log(number.toFixed(2), typeof number);
 
       // Type coercion
 
-      let mystr = Number("698");
+      let mystr = "893";
       let mynum = 34;
+      console.log(mystr + mynum);
 
-    //   console.log(mystr + mynum);
+     mystr = Number("698");
+     mynum = 34;
+      console.log(mystr + mynum);
     </script>
   </body>
 </html>
