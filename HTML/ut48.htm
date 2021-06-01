@@ -7,20 +7,24 @@
     <title>Use strict</title>
   </head>
   <body>
-      <h5>confirm || alert || prompt</h5>
+    <h5>confirm || alert || prompt</h5>
     <script>
-      // "use sctrict";
-      let fruit1 = "Orange'";
-      console.log(fruit1);
+    //   "use sctrict";
+      //   let fruit1 = "Orange'";
+      //   console.log(fruit1);
       //  let test = prompt("Test", '');
       // let x=prompt("check",5+6);
       // alert("miki");
       //   let age = prompt("How old are you?", 100);//prompt accept 2 argument--> prompt(title, [default]);
       //   alert(`You are ${age} years old!`); // You are 100 years old!
 
-      let isBoss = confirm("Are you the boss?");
-      alert(isBoss); //if true  OK is pressed
+    //   let isBoss = confirm("Are you the boss?");
+    //   alert(isBoss); //if true  OK is pressed
 
+      ("use strict");
+
+      let name = prompt("What is your name?", "");
+      alert(name);
     </script>
   </body>
 </html>
